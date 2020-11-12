@@ -1,0 +1,30 @@
+.toc ul {
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+}
+
+.toc ul > li a {
+    font-size: 1em;
+}
+
+.toc ul > li li a {
+    font-size: .8em;
+}
+
+.toc ul > li li li a {
+    font-size: .6em;
+}
+
+.toc a {
+    text-decoration: none;
+
+    color: darkgray;
+}
+
+.toc > ul > li:before {
+    content: "# ";
+
+    color: red;
+}
